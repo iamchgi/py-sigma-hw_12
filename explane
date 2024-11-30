@@ -1,0 +1,29 @@
+  '''
+    cProfile - модуль профайлер - інструмент Python: аналіз внутрішніх викликів інтерпретатора - оцінювання їх швидкодії.
+    cProfileі profile - забезпечують детерміноване профілювання програм Python.
+    Профіль — це набір статистичних даних, який описує , як часто та як довго виконуються різні частини програми.
+    Цю статистику можна форматувати у звіти за допомогою pstats модуля.
+    https://docs.python.org/3/library/profile.html
+    https://www.toucantoco.com/en/tech-blog/python-performance-optimization
+
+    Результат профілювання:
+
+    fibonacci(number_to_test) = 55                                                  - відгук функції - число Фібоначчі
+         111 function calls (3 primitive calls) in 0.000 seconds                    - відстежено 111 викликів / дій, з низ 3 примітивних - не рекурсія, тощо.
+
+   Ordered by: standard name                                                        - упорядковані дані за стандартним ім'ям
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    109/1    0.000    0.000    0.000    0.000 fibonacci.py:8(fibonacci)             - характеристика функції fibonacci
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}      - характеристика print
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+    Значення індикаторів:
+    - ncalls - виклики - ПРОСТІР, результат 109/1 - функція рекурсувала: 109 - загальних викликів, 1 - первинних викликів;
+    - tottime - загальноий ЧАС, витраченний на дану функцію / сутність (без підфункцій);
+    - percall - є часткою tottime поділеного наncalls;
+    - cumtime - загальний час, витрачений на цю та всі підфункції (від виклику до виходу);
+    - percall - є часткою cumtime поділеного на примітивні виклики;
+    - filename:lineno(function) - надає відповідні дані кожної функції / сутності.
+
+    '''
