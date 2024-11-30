@@ -1,0 +1,102 @@
+begin = 0  end = 1_000    iter = 10_000    type = 'int'
+Час генерації: 0.028983 секунд
+         3 function calls in 127.495 seconds
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1  127.495  127.495  127.495  127.495 bubble_sort.py:10(bubble_sort)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+Функція - bubble_sort          час виконання: 127.557065 секунд
+
+         2 function calls in 50.247 seconds
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   50.247   50.247   50.247   50.247 insertion_sort.py:9(insertion_sort)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+Функція - insertion_sort       час виконання: 50.248271 секунд
+
+         27013 function calls (9007 primitive calls) in 0.249 seconds
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     9003    0.221    0.000    0.221    0.000 quick_sort.py:12(partition)
+  18007/1    0.028    0.000    0.249    0.249 quick_sort.py:36(quick_sort)
+        1    0.000    0.000    0.249    0.249 quick_sort.py:51(quick_sort_array)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+Функція - quick_sort_array     час виконання: 0.249856 секунд
+
+         456217 function calls (436219 primitive calls) in 0.598 seconds
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     9999    0.301    0.000    0.525    0.000 merge_sort.py:20(merge)
+        1    0.000    0.000    0.598    0.598 merge_sort.py:38(merge_sort_array)
+  19999/1    0.061    0.000    0.598    0.598 merge_sort.py:8(merge_sort)
+   285656    0.122    0.000    0.122    0.000 {built-in method builtins.len}
+   120563    0.069    0.000    0.069    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+    19998    0.045    0.000    0.045    0.000 {method 'extend' of 'list' objects}
+Функція - merge_sort_array     час виконання: 0.600679 секунд
+
+         7 function calls in 0.734 seconds
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.734    0.734 build_in_sort.py:31(np_sort_quicksort)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:969(_sort_dispatcher)
+        1    0.000    0.000    0.734    0.734 fromnumeric.py:973(sort)
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.asanyarray}
+        1    0.000    0.000    0.000    0.000 {method 'copy' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.734    0.734    0.734    0.734 {method 'sort' of 'numpy.ndarray' objects}
+Функція - np_sort_quicksort    час виконання: 0.736557 секунд
+
+         7 function calls in 0.002 seconds
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.002    0.002 build_in_sort.py:35(np_sort_mergesort)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:969(_sort_dispatcher)
+        1    0.000    0.000    0.002    0.002 fromnumeric.py:973(sort)
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.asanyarray}
+        1    0.000    0.000    0.000    0.000 {method 'copy' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.002    0.002    0.002    0.002 {method 'sort' of 'numpy.ndarray' objects}
+Функція - np_sort_mergesort    час виконання: 0.003998 секунд
+
+         7 function calls in 0.002 seconds
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.002    0.002 build_in_sort.py:39(np_sort_heapsort)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:969(_sort_dispatcher)
+        1    0.000    0.000    0.002    0.002 fromnumeric.py:973(sort)
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.asanyarray}
+        1    0.000    0.000    0.000    0.000 {method 'copy' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.002    0.002    0.002    0.002 {method 'sort' of 'numpy.ndarray' objects}
+Функція - np_sort_heapsort     час виконання: 0.003998 секунд
+
+         7 function calls in 0.002 seconds
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.002    0.002 build_in_sort.py:43(np_sort_stable)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:969(_sort_dispatcher)
+        1    0.000    0.000    0.002    0.002 fromnumeric.py:973(sort)
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.asanyarray}
+        1    0.000    0.000    0.000    0.000 {method 'copy' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.002    0.002    0.002    0.002 {method 'sort' of 'numpy.ndarray' objects}
+Функція - np_sort_stable       час виконання: 0.003999 секунд
+
+         3 function calls in 0.015 seconds
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.015    0.015 build_in_sort.py:48(coolest_sort)
+        1    0.015    0.015    0.015    0.015 {built-in method builtins.sorted}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+Функція - coolest_sort         час виконання: 0.015991 секунд
+
+         3 function calls in 0.009 seconds
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.009    0.009 build_in_sort.py:54(sort_sort)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.009    0.009    0.009    0.009 {method 'sort' of 'numpy.ndarray' objects}
+Функція - sort_sort            час виконання: 0.009994 секунд
+
+         1575 function calls in 0.628 seconds
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      313    0.314    0.001    0.314    0.001 tim_sort.py:22(insertion_sort)
+      312    0.305    0.001    0.305    0.001 tim_sort.py:33(merge)
+        1    0.004    0.004    0.628    0.628 tim_sort.py:61(tim_sort)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+      947    0.004    0.000    0.004    0.000 {built-in method builtins.min}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+Функція - tim_sort             час виконання: 0.630638 секунд
